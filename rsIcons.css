@@ -1,9 +1,9 @@
-/* Allgemeine Stildefinitionen für Icons */
+/* General style definitions for icons */
 .rsIcon {
   display: inline-block;
 }
 
-/* Stildefinitionen spezifisch für den Kalender */
+/* Style definitions specific to the calendar */
 .rsIcon.rsCalendar time.icon {
   font-size: 20px;
   cursor: pointer;
