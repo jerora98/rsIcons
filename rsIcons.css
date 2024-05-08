@@ -1,0 +1,55 @@
+/* Allgemeine Stildefinitionen für Icons */
+.rsIcon {
+  display: inline-block;
+}
+
+/* Stildefinitionen spezifisch für den Kalender */
+.rsIcon.rsCalendar time.icon {
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.rsIcon.rsCalendar time.icon {
+  display: block;
+  position: relative;
+  width: 7em;
+  height: 7em;
+  background-color: #fff;
+  border-radius: 0.6em;
+  border: 1px solid black;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.rsIcon.rsCalendar time.icon * {
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+
+.rsIcon.rsCalendar time.icon strong {
+  position: absolute;
+  top: 0;
+  padding: 0.4em 0;
+  color: #fff;
+  background-color: #fd9f1b;
+  border-bottom: 1px dashed #f37302;
+  box-shadow: 0 2px 0 #fd9f1b;
+}
+
+.rsIcon.rsCalendar time.icon em {
+  position: absolute;
+  bottom: 0.3em;
+  color: #fd9f1b;
+}
+
+.rsIcon.rsCalendar time.icon span {
+  font-size: 2.8em;
+  letter-spacing: -0.05em;
+  padding-top: 0.8em;
+  color: #2f2f2f;
+}
