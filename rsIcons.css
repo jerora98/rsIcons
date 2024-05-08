@@ -1,50 +1,184 @@
 /* General style definitions for icons */
 .rsIcon {
     display: inline-block;
+    vertical-align: middle;
 }
-  
+
 /* Style definitions specific to the calendar */
 .rsIcon.rsCalendar time.icon {
-display: block;
-position: relative;
-width: 7em;
-height: 7em;
-background-color: #fff;
-border-radius: 0.6em;
-border: 1px solid black;
-box-sizing: border-box;
-overflow: hidden;
+    display: block;
+    position: relative;
+    width: 7em;
+    height: 7em;
+    background-color: #fff;
+    border-radius: 0.6em;
+    border: 1px solid black;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .rsIcon.rsCalendar time.icon * {
-display: block;
-width: 100%;
-font-size: 1em; /* Icon content size */
-font-weight: bold;
-font-style: normal;
-text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
 }
 
 .rsIcon.rsCalendar time.icon strong {
-position: absolute;
-top: 0;
-padding: 0.4em 0;
-color: #fff;
-background-color: #fd9f1b;
-border-bottom: 1px dashed #f37302;
-box-shadow: 0 2px 0 #fd9f1b;
+    position: absolute;
+    top: 0;
+    padding: 0.4em 0;
+    color: #fff;
+    background-color: #fd9f1b;
+    border-bottom: 1px dashed #f37302;
+    box-shadow: 0 2px 0 #fd9f1b;
 }
 
 .rsIcon.rsCalendar time.icon em {
-position: absolute;
-bottom: 0.3em;
-color: #fd9f1b;
+    position: absolute;
+    bottom: 0.3em;
+    color: #fd9f1b;
 }
 
 .rsIcon.rsCalendar time.icon span {
-font-size: 2.8em; /* Icon size */
-letter-spacing: -0.05em;
-padding-top: 0.8em;
-color: #2f2f2f;
+    font-size: 2.8em; /* Icon size */
+    letter-spacing: -0.05em;
+    padding-top: 0.8em;
+    color: #2f2f2f;
 }
   
+/* General style definitions for icons */
+.rsIcon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Style definitions specific to the calendar */
+.rsIcon.rsCalendar time.icon {
+    display: block;
+    position: relative;
+    width: 7em;
+    height: 7em;
+    background-color: #fff;
+    border-radius: 0.6em;
+    border: 1px solid black;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.rsIcon.rsCalendar time.icon * {
+    display: block;
+    width: 100%;
+    font-size: 1em;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+}
+
+.rsIcon.rsCalendar time.icon strong {
+    position: absolute;
+    top: 0;
+    padding: 0.4em 0;
+    color: #fff;
+    background-color: #fd9f1b;
+    border-bottom: 1px dashed #f37302;
+    box-shadow: 0 2px 0 #fd9f1b;
+}
+
+.rsIcon.rsCalendar time.icon em {
+    position: absolute;
+    bottom: 0.3em;
+    color: #fd9f1b;
+}
+
+.rsIcon.rsCalendar time.icon span {
+    font-size: 2.8em;
+    letter-spacing: -0.05em;
+    padding-top: 0.8em;
+    color: #2f2f2f;
+}
+  
+  
+/* Style definitions specific to the clock */
+.rsIcon.rsClock time.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7em;
+    height: 7em;
+    background-color: #fff;
+    border-radius: 0.6em;
+    border: 1px solid black;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.rsIcon.rsClock time.icon * {
+    font-size: 2.8em;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    color: #2f2f2f;
+}
+
+
+/* Style definitions specific to the AnalogClock */
+.rsIcon.rsAnalogClock {
+    position: relative;
+    width: 7em;
+    height: 7em;
+    border: 1px solid black;
+    border-radius: 0.6em;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.rsIcon.rsAnalogClock .clock-face {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #000;
+}
+
+.rsIcon.rsAnalogClock .clock-face::before,
+.rsIcon.rsAnalogClock .clock-face::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: #000;
+    transform-origin: bottom center;
+}
+
+.rsIcon.rsAnalogClock .hour-hand,
+.rsIcon.rsAnalogClock .minute-hand,
+.rsIcon.rsAnalogClock .second-hand {
+    width: 2px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: bottom center;
+}
+
+.rsIcon.rsAnalogClock .hour-hand {
+    height: 25%;
+    transform: rotate(90deg);
+    transform-origin: top center;
+}
+
+.rsIcon.rsAnalogClock .minute-hand {
+    height: 35%;
+    transform-origin: top center;
+}
+
+.rsIcon.rsAnalogClock .second-hand {
+    height: 40%;
+    transform-origin: top center;
+}
