@@ -5,12 +5,6 @@
 
 /* Style definitions specific to the calendar */
 .rsIcon.rsCalendar time.icon {
-  font-size: 20px;
-  cursor: pointer;
-  transition: 0.3s ease-in-out;
-}
-
-.rsIcon.rsCalendar time.icon {
   display: block;
   position: relative;
   width: 7em;
