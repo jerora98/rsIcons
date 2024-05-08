@@ -9,8 +9,8 @@ To use this framework, follow these steps:
 1. Include the CSS and JavaScript files in your HTML file:
 
     ```html
-    <link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/jerora98/rsIcons/main/rsIcons.css">
-    <script src="https://raw.githubusercontent.com/jerora98/rsIcons/main/rsIcons.main.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://rassweiler-it.de/rsIcons/rsIcons.css">
+    <script src="https://rassweiler-it.de/rsIcons/rsIcons.main.js"></script>
     ```
 
 2. Add an element with the class `rsIcon` followed by the specific icon class. For example, to add a calendar icon, use:
