@@ -32,7 +32,9 @@ To use this framework, follow these steps:
 
 Currently, the following icons are available:
 
-- Calendar: `<div class="rsIcon rsCalendar"></div>`
+- Calendar:        `<div class="rsIcon rsCalendar"></div>`
+- Digital Clock:   `<div class="rsIcon rsClock"></div>`
+- Analog Clock:    `<div class="rsIcon rsAnalogClock"></div>`
 - [Add more icons here]
 
 ## Contributing
