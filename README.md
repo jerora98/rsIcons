@@ -21,10 +21,11 @@ To use this framework, follow these steps:
 
 3. Customize the appearance of the icons by modifying the CSS classes or adding your own styles.
 
+    For example, to change the default size of an icon, you can modify the `font-size` property of the corresponding CSS class. Here's an example of how to change the size of the calendar icon:
    ```html
-      .rsIcon.rsCalendar time.icon {
-        font-size: 20px;
-      }
+        .rsIcon.rsCalendar {
+            font-size: 20px; /* Default icon size */
+        }
    ```
 
 ## Available Icons
