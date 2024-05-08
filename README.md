@@ -21,6 +21,12 @@ To use this framework, follow these steps:
 
 3. Customize the appearance of the icons by modifying the CSS classes or adding your own styles.
 
+   ```html
+      .rsIcon.rsCalendar time.icon {
+        font-size: 20px;
+      }
+   ```
+
 ## Available Icons
 
 Currently, the following icons are available:
