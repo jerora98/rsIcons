@@ -23,9 +23,9 @@ To use this framework, follow these steps:
 
     For example, to change the default size of an icon, you can modify the `font-size` property of the corresponding CSS class. Here's an example of how to change the size of the calendar icon:
    ```html
-        .rsIcon.rsCalendar {
-            font-size: 20px; /* Default icon size */
-        }
+    .rsIcon.rsCalendar {
+        font-size: 20px; /* Default icon size */
+    }
    ```
 
 ## Available Icons
